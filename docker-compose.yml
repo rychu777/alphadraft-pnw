@@ -1,0 +1,15 @@
+services:
+  etl-processor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: alphadraft_etl
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+    environment:
+      - JUPYTER_TOKEN=alphadraft2026
+    # Keep the interactive shell alive
+    stdin_open: true
+    tty: true

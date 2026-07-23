@@ -1,0 +1,20 @@
+# Raw downloaded/generated data (reproducible via scripts/)
+raw/
+
+# Cloned third-party generator (Meraki lolstaticdata)
+vendor/
+
+# Generator run logs (regenerated each run)
+logs/
+
+# Champion embedding portraits (downloaded/cached by scripts/champion_embeddings.py)
+embeddings/icons/
+
+# Secrets (ANTHROPIC_API_KEY lives here)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/

@@ -1,0 +1,35 @@
+# Data collection & Processing
+requests==2.33.1
+python-dotenv==1.2.2
+pydantic==2.13.1
+tqdm>=4.68.3
+
+# Data exploration and visualization
+jupyterlab==4.5.6
+matplotlib==3.10.8
+pandas==3.0.2
+seaborn==0.13.2
+ipywidgets==8.1.8
+
+# Network analysis
+networkx==3.6.1
+networkit==11.2.1
+
+# Evaluation
+scikit-learn==1.9.0
+
+# LLM ability tagging (scripts/tag_abilities.py)
+anthropic>=0.92.0
+
+# Testing
+pytest==8.4.2
+
+# Meraki lolstaticdata generator (scripts/generate_raw.py runs their code)
+# These mirror the generator's own (unpinned) requirements; bump if a build fails.
+beautifulsoup4==4.13.4
+dataclasses-json==0.6.7
+lxml==5.3.0
+natsort==8.4.0
+slpp==1.2.3
+thefuzz==0.22.1
+stringcase==1.2.0
